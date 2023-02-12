@@ -5,7 +5,7 @@ from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
 from asyncio import sleep
 from Config import Config 
-
+from keep_alive import keep_alive
 
 logging.basicConfig(
     level=logging.INFO,
@@ -30,10 +30,7 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 anlik_calisan = []
 
 tekli_calisan = []
-  
-
-	
-	
+ keep_alive()
 	
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
