@@ -10,9 +10,9 @@ class Config():
 
     API_HASH = "60a2897e2d7de8eefd6cf610085b1f0a"
 
-    BOT_TOKEN = "5877068414:AAEuYMN7WLfoAXZ7r5310Ob8AWDHPUg-Lug"
+    BOT_TOKEN = "6234346287:AAGo8wNuWH0yJTn-qPPXTKkihROhq763jy4"
 
-    BOT_USERNAME = "ustaggerbot"
+    BOT_USERNAME = "myuklebot"
 
     BOT_NAME = "ustaggerbot"
 
